@@ -1,0 +1,20 @@
+<div class="container">
+
+  <div>
+    <acme-navbar creation-date="main.creationDate"></acme-navbar>
+  </div>
+
+  <div class="jumbotron text-center">
+
+    <div ng-controller="DynamicPieChartController">
+      <h3>Dynamic pie chart example</h3>
+      <p>In this example a pie chart transforms into bar chart after 5s. You can export both versions.</p>
+
+      <div id="my-pie-chart" export-chart exported-file-name="My line chart exported"></div>
+      <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-spy=</span><span class="s">"affix"</span> <span class="na">data-offset-top=</span><span class="s">"60"</span> <span class="na">data-offset-bottom=</span><span class="s">"200"</span><span class="nt">&gt;</span>
+        ...
+        <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+    </div>
+
+  </div>
+</div>
